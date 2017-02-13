@@ -1,0 +1,140 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+  text-align: center;
+  align-content: center;
+  align-items: center;
+}
+
+li {
+  align-content: center;
+  text-align: center;
+  color: blue;
+}
+
+.light {
+  text-align: center;
+}
+
+p {
+  line-height: 2rem;
+  align-content: center;
+}
+
+.love {
+  background-color: LightGray;
+  padding: 20px;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+  align-content: center;
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+/*.parallax {
+  background-color: DarkSlateBlue;
+}*/
+
+.container {
+  font-family: 'Rock Salt', cursive;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+h1 {
+  color: black;
+}
+
+h3 {
+  color: black;
+}
+
+h4 {
+  text-align: center;
+}
+
+h5 {
+  color: black;
+  text-align: center;
+}
+
+h6 {
+  color: black;
+
+}
+
+.slider {
+  /*height: 25%;*/
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  /*padding: 100px;*/
+}
+
+.collapsible-header {
+  color: green;
+  font-size: 20px;
+}
+
+.collapsible-body {
+  color: purple;
+}
+
+/*.slides {
+  width: 50%;
+  align-content: center;
+  align-items: center;
+  align-self: center;
+  padding: 100px;
+}*/
+/*
+footer {
+  background-color: blue;
+}*/
